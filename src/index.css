@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: block;
+}
+
+section {
+  padding: 2rem;
+}
+
+nav,
+footer {
+  padding: 1rem 2rem;
+}
