@@ -1,10 +1,12 @@
+const base = import.meta.env.BASE_URL;
+
 export const projects = [
 	{
 		title: "Personal Speaker",
 		slug: "personal-speaker",
 		status: "Completed",
 		category: "Hardware",
-		heroImage: "/images/projects/personal-speaker/1.jpg",
+		heroImage: `${base}images/projects/personal-speaker/1.jpg`,
 		githubLink: "",
 		demoLink: "",
 		summary:
@@ -30,13 +32,13 @@ export const projects = [
 		proudOf:
 			"The animation software and how naturally the lights sync with music while still giving full control over modes and brightness.",
 		images: [
-			"/images/projects/personal-speaker/1.jpg",
-			"/images/projects/personal-speaker/2.jpg",
-			"/images/projects/personal-speaker/3.jpg",
+			`${base}images/projects/personal-speaker/1.jpg`,
+			`${base}images/projects/personal-speaker/2.jpg`,
+			`${base}images/projects/personal-speaker/3.jpg`,
 		],
 		videos: [
-			"/videos/projects/personal-speaker/demo-1.mp4",
-			"/videos/projects/personal-speaker/demo-2.mp4",
+			`${base}videos/projects/personal-speaker/demo-1.mp4`,
+			`${base}videos/projects/personal-speaker/demo-2.mp4`,
 		],
 	},
 	{
@@ -44,7 +46,7 @@ export const projects = [
 		slug: "shot-pouring-machine",
 		status: "Completed",
 		category: "Hardware",
-		heroImage: "/images/projects/shot-pouring-machine/1.jpg",
+		heroImage: `${base}images/projects/shot-pouring-machine/1.jpg`,
 		githubLink: "",
 		demoLink: "",
 		summary:
@@ -69,17 +71,17 @@ export const projects = [
 		proudOf:
 			"The reliability of the dispensing logic and the ability to fill multiple drinks accurately with minimal user input.",
 		images: [
-			"/images/projects/shot-pouring-machine/1.jpg",
-			"/images/projects/shot-pouring-machine/2.jpg",
+			`${base}images/projects/shot-pouring-machine/1.jpg`,
+			`${base}images/projects/shot-pouring-machine/2.jpg`,
 		],
-		videos: ["/videos/projects/shot-pouring-machine/demo-1.mp4"],
+		videos: [`${base}videos/projects/shot-pouring-machine/demo-1.mp4`],
 	},
 	{
 		title: "DJ Stage Lights",
 		slug: "dj-stage-lights",
 		status: "Completed",
 		category: "Hardware",
-		heroImage: "/images/projects/dj-stage-lights/1.jpg",
+		heroImage: `${base}images/projects/dj-stage-lights/1.jpg`,
 		githubLink: "",
 		demoLink: "",
 		summary:
@@ -104,18 +106,18 @@ export const projects = [
 		proudOf:
 			"Scaling reactive lighting concepts to a much larger and more immersive system while keeping synchronization intact.",
 		images: [
-			"/images/projects/dj-stage-lights/1.jpg",
-			"/images/projects/dj-stage-lights/2.jpg",
-			"/images/projects/dj-stage-lights/3.jpg",
+			`${base}images/projects/dj-stage-lights/1.jpg`,
+			`${base}images/projects/dj-stage-lights/2.jpg`,
+			`${base}images/projects/dj-stage-lights/3.jpg`,
 		],
-		videos: ["/videos/projects/dj-stage-lights/demo-1.mp4"],
+		videos: [`${base}videos/projects/dj-stage-lights/demo-1.mp4`],
 	},
 	{
 		title: "IntelliLift",
 		slug: "intellilift",
 		status: "Completed",
 		category: "Software",
-		heroImage: "/images/projects/intellilift/1.jpg",
+		heroImage: `${base}images/projects/intellilift/1.jpg`,
 		githubLink: "",
 		demoLink: "",
 		summary:
@@ -140,18 +142,18 @@ export const projects = [
 		proudOf:
 			"The predictive systems and the fact that the app turns raw logs into actionable feedback instead of just storing data.",
 		images: [
-			"/images/projects/intellilift/1.jpg",
-			"/images/projects/intellilift/2.jpg",
-			"/images/projects/intellilift/3.jpg",
+			`${base}images/projects/intellilift/1.jpg`,
+			`${base}images/projects/intellilift/2.jpg`,
+			`${base}images/projects/intellilift/3.jpg`,
 		],
-		videos: ["/videos/projects/intellilift/demo-1.mp4"],
+		videos: [`${base}videos/projects/intellilift/demo-1.mp4`],
 	},
 	{
 		title: "Mechanical Hand",
 		slug: "mechanical-hand",
 		status: "In Progress",
 		category: "Hardware / Robotics",
-		heroImage: "/images/projects/mechanical-hand/1.jpg",
+		heroImage: `${base}images/projects/mechanical-hand/1.jpg`,
 		githubLink: "",
 		demoLink: "",
 		summary:
@@ -179,18 +181,18 @@ export const projects = [
 		proudOf:
 			"The overall system concept — especially the attempt to pair an intuitive wearable input device with a tendon-driven robotic hand capable of more natural motion.",
 		images: [
-			"/images/projects/mechanical-hand/1.jpg",
-			"/images/projects/mechanical-hand/2.jpg",
-			"/images/projects/mechanical-hand/3.jpg",
+			`${base}images/projects/mechanical-hand/1.jpg`,
+			`${base}images/projects/mechanical-hand/2.jpg`,
+			`${base}images/projects/mechanical-hand/3.jpg`,
 		],
-		videos: ["/videos/projects/mechanical-hand/demo-1.mp4"],
+		videos: [`${base}videos/projects/mechanical-hand/demo-1.mp4`],
 	},
 	{
 		title: "Knot Dating App",
 		slug: "knot-dating-app",
 		status: "In Progress",
 		category: "Software",
-		heroImage: "/images/projects/knot-dating-app/1.jpg",
+		heroImage: `${base}images/projects/knot-dating-app/1.jpg`,
 		githubLink: "",
 		demoLink: "",
 		summary:
@@ -214,9 +216,9 @@ export const projects = [
 		proudOf:
 			"The compatibility-first concept and the decision to structure the app around more meaningful information before appearance.",
 		images: [
-			"/images/projects/knot-dating-app/1.jpg",
-			"/images/projects/knot-dating-app/2.jpg",
+			`${base}images/projects/knot-dating-app/1.jpg`,
+			`${base}images/projects/knot-dating-app/2.jpg`,
 		],
-		videos: ["/videos/projects/knot-dating-app/demo-1.mp4"],
+		videos: [`${base}videos/projects/knot-dating-app/demo-1.mp4`],
 	},
 ];
